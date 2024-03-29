@@ -1,0 +1,7 @@
+#toast-container {
+  position: fixed;
+  top: 0;
+  right: 20;
+  /* Adjust right margin as needed */
+  z-index: 1000; /* Ensure toasts are above other content */
+}

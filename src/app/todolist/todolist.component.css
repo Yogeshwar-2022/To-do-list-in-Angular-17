@@ -1,0 +1,65 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+#errorMessage {
+  display: none;
+  /* Hide error message by default */
+}
+
+.invalid .form-control {
+  border-color: red;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+.table th {
+  background-color: lightblue;
+}
+
+.edit input {
+  border: 1px solid #ccc;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+#clearCompleted {
+  margin-top: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+}
